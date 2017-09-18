@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass beamer
 \begin_preamble
 % PDF settings
@@ -71,14 +73,14 @@
 % or whatever (possibly just delete it)
 
 % nambah logo
-\pgfdeclareimage[height=1cm]{institution-logo}{img/logo.png}
-\logo{\pgfuseimage{institution-logo}}
+%\pgfdeclareimage[height=1cm]{institution-logo}{img/logo.png}
+%\logo{\pgfuseimage{institution-logo}}
 
 % Menambahkan Background
 \usepackage{tikz}
 \usebackgroundtemplate{%
 \tikz\node[opacity=0.05]
-{\includegraphics[height=\paperheight,width=\paperwidth]{img/bg.png}};}
+{\includegraphics[height=\paperheight,width=\paperwidth]{img/background.pdf}};}
 %{\includegraphics[height=9cm,width=9cm]{logo.png}};}
 
 %\setbeamercolor{section in head/foot}{fg=black, bg=white}
@@ -110,16 +112,16 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman times
-\font_sans default
-\font_typewriter default
-\font_math auto
-\font_default_family rmdefault
-\use_non_tex_fonts false
+\font_roman "times" "Heiti SC"
+\font_sans "default" "Songti SC"
+\font_typewriter "default" "default"
+\font_math "auto" "default"
+\font_default_family default
+\use_non_tex_fonts true
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -171,12 +173,12 @@
 \begin_body
 
 \begin_layout Title
-Title of the Talk
+上海对外经贸大学Lyx Beamer模板
 \begin_inset Argument 1
-status collapsed
+status open
 
 \begin_layout Plain Layout
-Short Paper Title
+SUIBE Beamer
 \end_layout
 
 \end_inset
@@ -185,16 +187,16 @@ Short Paper Title
 \end_layout
 
 \begin_layout Subtitle
-Subtitle of the Talk
+基于BudiluhurLyxBeamer修改
 \end_layout
 
 \begin_layout Author
-Budi Luhur University
+司继春
 \begin_inset Argument 1
-status collapsed
+status open
 
 \begin_layout Plain Layout
-Budi Luhur
+司继春
 \end_layout
 
 \end_inset
@@ -212,12 +214,12 @@ status open
 
 \end_inset
 
-Budi Luhur University
+上海对外经贸大学
 \begin_inset Argument 1
-status collapsed
+status open
 
 \begin_layout Plain Layout
-Budi Luhur University
+SUIBE
 \end_layout
 
 \end_inset
@@ -226,12 +228,12 @@ Budi Luhur University
 \end_layout
 
 \begin_layout Date
-Jakarta, 2016
+2017年9月
 \begin_inset Argument 1
-status collapsed
+status open
 
 \begin_layout Plain Layout
-Jakarta 2016
+Sep 2017
 \end_layout
 
 \end_inset
@@ -244,9 +246,13 @@ Jakarta 2016
 status open
 
 \begin_layout Plain Layout
-Outline
+概览
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -293,6 +299,10 @@ Make Titles Informative.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -303,6 +313,10 @@ Frame subtitles are optional.
 
 \begin_layout Itemize
 Use Itemize a lot.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -313,6 +327,10 @@ Use Itemize a lot.
 \end_deeper
 \begin_layout Itemize
 Use very short sentences or short phrases.
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -326,7 +344,10 @@ These overlays are created using the Pause style.
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -339,6 +360,10 @@ Make Titles Informative.
  
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -385,7 +410,10 @@ This is shown second.
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -400,6 +428,10 @@ Make Titles Informative.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -411,6 +443,10 @@ status open
 1-
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -444,6 +480,10 @@ status open
 Some Example Block Title
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -482,6 +522,10 @@ Make Titles Informative.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -499,7 +543,10 @@ On first slide.
  
 \end_layout
 
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -537,6 +584,10 @@ Make Titles Informative.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -553,7 +604,10 @@ On second slide.
 \end_layout
 
 \end_deeper
-\begin_layout Separator
+\begin_layout Standard
+\begin_inset Separator parbreak
+\end_inset
+
 
 \end_layout
 
@@ -569,10 +623,17 @@ Make Titles Informative.
 \end_inset
 
 
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
 \begin_layout ColumnsTopAligned
+\begin_inset Separator latexpar
+\end_inset
+
 
 \end_layout
 
@@ -633,6 +694,10 @@ status open
 Summary
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -708,6 +773,10 @@ third message
 
 \begin_layout Itemize
 Outlook
+\begin_inset Separator latexpar
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -748,6 +817,10 @@ status open
 For Further Reading
 \end_layout
 
+\end_inset
+
+
+\begin_inset Separator latexpar
 \end_inset
 
 
@@ -869,7 +942,7 @@ newblock
 Journal on This and That
 \emph default
 .
- 2(1):50--100, 2000.
+ 2(1):50–100, 2000.
 \end_layout
 
 \end_deeper
