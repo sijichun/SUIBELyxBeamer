@@ -5,4 +5,4 @@
 本项目在[BudiluhurLyxBeamer](https://github.com/nonohry/BudiluhurLyxBeamer)的基础上进行修改，主要是修改了背景，删掉了不怎么好看的右下角校徽，同时支持中文。
 
 ## 截图:
-![](https://github.com/sitelmi/BudiluhurLyxBeamer/blob/master/Screenshot.jpg)
+![](https://github.com/sijichun/SUIBELyxBeamer/blob/master/Screenshot.png)
