@@ -1,4 +1,4 @@
-# SUIVELyxBeamer
+# SUIBELyxBeamer
 上海对外经贸大学Lyx Beamer模板
 
 ## 修改记录
