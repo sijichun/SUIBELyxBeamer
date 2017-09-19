@@ -1,0 +1,99 @@
+% PDF settings
+\hypersetup{%
+    pdftitle={Title of Presentation},%
+    pdfauthor={Nono Heryana},%
+    pdfsubject={},%
+    pdfkeywords={}%
+}
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+%\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+
+\setbeamercovered{transparent}
+% or whatever (possibly just delete it)
+
+% nambah logo
+%\pgfdeclareimage[height=1cm]{institution-logo}{img/logo.png}
+%\logo{\pgfuseimage{institution-logo}}
+
+% Menambahkan Background
+\usepackage{tikz}
+\usebackgroundtemplate{%
+\tikz\node[opacity=0.05]
+{\includegraphics[height=\paperheight,width=\paperwidth]{img/background.pdf}};}
+%{\includegraphics[height=9cm,width=9cm]{logo.png}};}
+
+%\setbeamercolor{section in head/foot}{fg=black, bg=white}
+
+%daftar isi
+\setcounter{tocdepth}{1}
+
+%header
+\useoutertheme[subsection=false]{miniframes} % Alternatively: miniframes, infolines, split
+\useinnertheme{circles}
+
+% navigasi
+%\beamertemplatenavigationsymbolsempty
+%\setbeamertemplate{navigation symbols}{}
+
+%footer
+%\setbeamertemplate{footline}[frame number]
+
+%color
+%\documentclass[xcolor=dvipsnames]{beamer}
+\usefonttheme{professionalfonts}
+\usecolortheme[rgb={0.01,0.18,0.42}]{structure}
+%\usecolortheme[named=blue]{structure}
+\useinnertheme{rounded}
